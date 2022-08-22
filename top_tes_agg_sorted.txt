@@ -1,0 +1,13 @@
+            Player Fantasy_PosRank            Year       Rank
+                              mean       std count       mean
+1   Dalton Schultz        3.000000       NaN     1  35.000000
+4    George Kittle        3.000000  1.000000     3  23.000000
+9   T.J. Hockenson        5.000000       NaN     1  52.000000
+10       Zach Ertz        5.333333  4.041452     3  33.333333
+5       Jared Cook        5.500000  0.707107     2  32.000000
+3      Dawson Knox        6.000000       NaN     1  50.000000
+7     Mike Gesicki        6.000000       NaN     1  56.000000
+0    Austin Hooper        7.000000  0.000000     2  47.500000
+2      David Njoku        8.000000       NaN     1  65.000000
+6       Kyle Pitts        9.000000       NaN     1  59.000000
+8      O.J. Howard       10.000000       NaN     1  68.000000
