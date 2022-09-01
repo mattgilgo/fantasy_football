@@ -1,0 +1,4 @@
+['Deebo Samuel' "Ja'Marr Chase" 'Justin Jefferson' 'Chris Godwin'
+ 'Kenny Golladay' 'Mike Williams' 'A.J. Brown' 'DeVante Parker'
+ 'Amari Cooper' 'Mike Evans' 'Chase Claypool' 'D.J. Moore' 'Tee Higgins'
+ 'Courtland Sutton']

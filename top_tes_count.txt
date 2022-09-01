@@ -1,0 +1,12 @@
+George Kittle     3
+Zach Ertz         3
+Jared Cook        2
+Austin Hooper     2
+Dalton Schultz    1
+Dawson Knox       1
+Kyle Pitts        1
+T.J. Hockenson    1
+Mike Gesicki      1
+David Njoku       1
+O.J. Howard       1
+Name: Player, dtype: int64

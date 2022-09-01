@@ -1,0 +1,12 @@
+                Player Fantasy_PosRank            Year       Rank
+                                  mean       std count       mean
+3  Christian McCaffrey        2.000000  1.414214     2   2.000000
+9       Saquon Barkley        2.000000       NaN     1   2.000000
+6      Jonathan Taylor        2.500000  2.121320     2   6.500000
+1         Alvin Kamara        3.333333  1.154701     3   3.333333
+5      Ezekiel Elliott        4.500000  0.707107     2   6.000000
+4        Damien Harris        8.000000       NaN     1  28.000000
+8    Leonard Fournette       12.000000  1.414214     2  31.500000
+2         Chris Carson       13.000000  3.605551     3  34.000000
+7          Josh Jacobs       16.000000       NaN     1  47.000000
+0            AJ Dillon       21.000000       NaN     1  70.000000
