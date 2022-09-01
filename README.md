@@ -9,12 +9,12 @@ Documented in this repository will be my attempts at:
 ## Results
 Choose from the csvs below to view ranked projection for your fantasy football draft:
 * Projections using top performing model/position pairing for each position:
-```
-- QB: draft_proj_083022/QB/BayesianRidge2022_projections_20220830-142824.csv
-- RB: draft_proj_083022/RB/RandomForestRegressor2022_projections_20220830-142827.csv
-- WR: draft_proj_083022/WR/BayesianRidge2022_projections_20220830-142827.csv
-- TE: draft_proj_083022/TE/LinearRegression2022_projections_20220830-142828.csv
-```
+
+    - QB: (draft_proj_083022/QB/BayesianRidge2022_projections_20220830-142824.csv)
+    - RB: (draft_proj_083022/RB/RandomForestRegressor2022_projections_20220830-142827.csv)
+    - WR: (draft_proj_083022/WR/BayesianRidge2022_projections_20220830-142827.csv)
+    - TE: (draft_proj_083022/TE/LinearRegression2022_projections_20220830-142828.csv)
+
 
 * Projections using aggregate of all 8 ML models for each position:
 ```
