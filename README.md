@@ -9,20 +9,17 @@ Documented in this repository will be my attempts at:
 ## Results
 Choose from the csvs below to view ranked projection for your fantasy football draft:
 * Projections using top performing model/position pairing for each position:
-
-    - QB: (draft_proj_083022/QB/BayesianRidge2022_projections_20220830-142824.csv)
-    - RB: (draft_proj_083022/RB/RandomForestRegressor2022_projections_20220830-142827.csv)
-    - WR: (draft_proj_083022/WR/BayesianRidge2022_projections_20220830-142827.csv)
-    - TE: (draft_proj_083022/TE/LinearRegression2022_projections_20220830-142828.csv)
+    - [QB] (https://github.com/mattgilgo/fantasy_football/blob/cleanup/projections/QB/BayesianRidge2022_projections_20220830-142824.csv)
+    - [RB] (https://github.com/mattgilgo/fantasy_football/blob/cleanup/projections/RB/RandomForestRegressor2022_projections_20220830-142827.csv)
+    - [WR] (https://github.com/mattgilgo/fantasy_football/blob/cleanup/projections/WR/BayesianRidge2022_projections_20220830-142827.csv)
+    - [TE] (https://github.com/mattgilgo/fantasy_football/blob/cleanup/projections/TE/LinearRegression2022_projections_20220830-142828.csv)
 
 
 * Projections using aggregate of all 8 ML models for each position:
-```
-- QB: draft_proj_083022/QB/qb_combined_projs.csv
-- RB: draft_proj_083022/RB/rb_combined_projs.csv
-- WR: draft_proj_083022/WR/wr_combined_projs.csv
-- TE: draft_proj_083022/TE/te_combined_projs.csv
-```
+    - [QB] (https://github.com/mattgilgo/fantasy_football/blob/cleanup/draft_proj_083022/QB/qb_combined_projs.csv)
+    - [RB] (https://github.com/mattgilgo/fantasy_football/blob/cleanup/draft_proj_083022/RB/rb_combined_projs.csv)
+    - [WR] (https://github.com/mattgilgo/fantasy_football/blob/cleanup/draft_proj_083022/WR/wr_combined_projs.csv)
+    - [TE] (https://github.com/mattgilgo/fantasy_football/blob/cleanup/draft_proj_083022/TE/te_combined_projs.csv)
 
 ## Gathering Data
 To kick off this project, data needed to be consolidated from various sources connect the picture between player statistics through where they project in a Fantasy Football Draft.
