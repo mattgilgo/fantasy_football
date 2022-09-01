@@ -9,10 +9,10 @@ Documented in this repository will be my attempts at:
 ## Results
 Choose from the csvs below to view ranked projection for your fantasy football draft:
 * Projections using top performing model/position pairing for each position:
-    - [QB] (https://github.com/mattgilgo/fantasy_football/main/cleanup/projections/QB/BayesianRidge2022_projections_20220830-142824.csv)
-    - [RB] (https://github.com/mattgilgo/fantasy_football/main/cleanup/projections/RB/RandomForestRegressor2022_projections_20220830-142827.csv)
-    - [WR] (https://github.com/mattgilgo/fantasy_football/main/cleanup/projections/WR/BayesianRidge2022_projections_20220830-142827.csv)
-    - [TE] (https://github.com/mattgilgo/fantasy_football/main/cleanup/projections/TE/LinearRegression2022_projections_20220830-142828.csv)
+    - [QB] (https://github.com/mattgilgo/fantasy_football/blob/main/projections/QB/BayesianRidge2022_projections_20220830-142824.csv)
+    - [RB] (https://github.com/mattgilgo/fantasy_football/blob/main/projections/RB/RandomForestRegressor2022_projections_20220830-142827.csv)
+    - [WR] (https://github.com/mattgilgo/fantasy_football/blob/main/projections/WR/BayesianRidge2022_projections_20220830-142827.csv)
+    - [TE] (https://github.com/mattgilgo/fantasy_football/blob/main/projections/TE/LinearRegression2022_projections_20220830-142828.csv)
 
 
 * Projections using aggregate of all 8 ML models for each position:
