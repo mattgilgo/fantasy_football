@@ -1,7 +1,8 @@
 # Fantasy Football Analysis w/ Data Science Models
 Documented in this repository will be my attempts at:
 * Gathering data 
-* Engineering to data to useful and concise datasets 
+* Engineering to data to useful and concise datasets
+* Exploratory data analysis for insights to datasets
 * Creating models to predict future fantasy performance 
 * Visualizing results of predictions
 * Simulating drafts using various strategies to find optimal approach
@@ -30,6 +31,11 @@ The following sources were used to extract this data:
 
 ## Data Engineering
 ...
+
+## Exploratory Data Analysis (EDA)
+Once the datasets weere created and engineered, the next step was to explore the datasets visually. As a first step in the process, it is simply important to know what the data is shaped like. With this is mind, the plot below was created to show how Fantasy Point production slopes off for each individual position.
+
+{% include plots/points_by_position.html %}
 
 ## Model Generation
 ...
