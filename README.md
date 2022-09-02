@@ -35,7 +35,7 @@ The following sources were used to extract this data:
 ## Exploratory Data Analysis (EDA)
 Once the datasets weere created and engineered, the next step was to explore the datasets visually. As a first step in the process, it is simply important to know what the data is shaped like. With this is mind, the plot below was created to show how Fantasy Point production slopes off for each individual position.
 
-![alt text](https://github.com/mattgilgo/fantasy_football/blob/cleanup/plots/points_by_position.PNG?raw=true)
+![alt text](https://github.com/mattgilgo/fantasy_football/blob/main/plots/points_by_position.PNG?raw=true)
 
 ## Model Generation
 ...
