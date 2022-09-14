@@ -27,6 +27,7 @@ To kick off this project, data needed to be consolidated from various sources co
 The following sources were used to extract this data:
 * Pro Football Reference for player game and combine stats (https://www.pro-football-reference.com/)
 * CBS Sports for target projections (https://www.cbssports.com/fantasy/football/stats/)
+* Fantasy Pros for aggregate 2022 PPR-format points projections (https://www.fantasypros.com/nfl/projections/qb.php?week=draft)
 * Fantasy Football Calculator for Fantasy Draft ADP (https://fantasyfootballcalculator.com/adp/ppr/12-team/all)
 
 ## Data Engineering
