@@ -49,9 +49,13 @@ Once the datasets weere created and engineered, the next step was to explore the
 ## Model Performance Tracker
 2022 Performance for teams drafted using these models:
 
-| League          | #Teams/League | Scoring Style | Draft Position | League Finish |
-| --------------- | ------------- | ------------- | -------------- | ------------- |
-| All-star Amigos | 12            | PPR           | 11th           | N/a           |
-| Carolina H2H    | 10            | PPR           | 6th            | N/a           |
+| League          | #Teams/League | Scoring Style | Draft Position | Team Record   | League Finish |
+| --------------- | ------------- | ------------- | -------------- | ------------- | ------------- |
+| All-star Amigos | 12            | PPR           | 11th           | N/a           | N/a           |
+| Carolina H2H    | 10            | PPR           | 6th            | N/a           | N/a           |
+| Seattle H2H     | 10            | PPR           | 7th            | N/a           | N/a           |
+| Biloxis Best Fm | 10            | PPR           | 7th            | N/a           | N/a           |
+| Couples De Lead | 10            | PPR           | 6th            | N/a           | N/a           |
+
 
 
