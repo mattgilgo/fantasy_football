@@ -50,13 +50,24 @@ Once the datasets weere created and engineered, the next step was to explore the
 ## Model Performance Tracker
 2022 Performance for teams drafted using these models:
 
-| League          | #Teams/League | Scoring Style | Draft Position | Team Record   | League Finish |
+| League          | #Teams/League | Scoring Style | Draft Position | Total Points  | League Finish |
 | --------------- | ------------- | ------------- | -------------- | ------------- | ------------- |
-| All-star Amigos | 12            | PPR           | 11th           | N/a           | N/a           |
-| Carolina H2H    | 10            | PPR           | 6th            | N/a           | N/a           |
-| Seattle H2H     | 10            | PPR           | 7th            | N/a           | N/a           |
-| Biloxis Best Fm | 10            | PPR           | 7th            | N/a           | N/a           |
-| Couples De Lead | 10            | PPR           | 6th            | N/a           | N/a           |
+| All-star Amigos | 12            | PPR           | 11th           | 1685          | 3rd           |
+| Carolina H2H    | 10            | PPR           | 6th            | 1646          | 6th           |
+| Seattle H2H     | 10            | PPR           | 7th            | 1664          | 2nd           |
+| Biloxis Best Fm | 10            | PPR           | 7th            | 1781          | 1st           |
+| Couples De Lead | 10            | PPR           | 6th            | 1725          | 1st           |
+
+## Average Position Finishes by Draftees
+Average Position Rank by Drafted Starting Players (number of top players averaged for position in parenthesis):
+
+| League          | QB (1) | RB (2) | WR (3) | TE (1) |
+| --------------- | -----  | ------ | ------ | ------ |
+| All-star Amigos | 11     | 12     | 6      | 3      |
+| Carolina H2H    | 13     | 18     | 8      | 1      |
+| Seattle H2H     | 13     | 9      | 8      | 7      |
+| Biloxis Best Fm | 12     | 23     | 5      | 1      |
+| Couples De Lead | 12     | 8      | 8      | 12     |
 
 
 
