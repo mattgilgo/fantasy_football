@@ -1,13 +1,14 @@
 # Fantasy Football Analysis w/ Data Science Models
 Documented in this repository will be my attempts at:
-* Gathering data 
-* Engineering to data to useful and concise datasets
+* Gathering and engineering datasets 
 * Exploratory data analysis for insights to datasets
 * Creating models to predict future fantasy performance 
 * Visualizing results of predictions
 * Simulating drafts using various strategies to find optimal approach
+* Real-life application of models across various fantasy leagues
+* Model Performance vs Experts Projections (ESPN/NFL)
 
-## Results
+## Choose from these Predictions for your Fantasy Draft!
 Choose from the csvs below to view ranked projection for your fantasy football draft:
 * Projections using top performing model/position pairing for each position:
     - [QB] (https://github.com/mattgilgo/fantasy_football/blob/main/projections/QB/BayesianRidge2022_projections_20220830-142824.csv)
@@ -22,7 +23,7 @@ Choose from the csvs below to view ranked projection for your fantasy football d
     - [WR] (https://github.com/mattgilgo/fantasy_football/blob/main/draft_proj_083022/WR/wr_combined_projs.csv)
     - [TE] (https://github.com/mattgilgo/fantasy_football/blob/main/draft_proj_083022/TE/te_combined_projs.csv)
 
-## Gathering Data
+## Data Engineering
 To kick off this project, data needed to be consolidated from various sources connect the picture between player statistics through where they project in a Fantasy Football Draft.
 The following sources were used to extract this data:
 * Pro Football Reference for each Player's game and combine stats (https://www.pro-football-reference.com/)
@@ -30,22 +31,29 @@ The following sources were used to extract this data:
 * Fantasy Pros for aggregate 2022 PPR-format points projections (https://www.fantasypros.com/nfl/projections/qb.php?week=draft)
 * Fantasy Football Calculator for Fantasy Draft ADP (https://fantasyfootballcalculator.com/adp/ppr/12-team/all)
 
-## Data Engineering
-...
-
 ## Exploratory Data Analysis (EDA)
-Once the datasets weere created and engineered, the next step was to explore the datasets visually. As a first step in the process, it is simply important to know what the data is shaped like. With this is mind, the plot below was created to show how Fantasy Point production slopes off for each individual position.
+Once the datasets were created and engineered, the next step was to explore the datasets visually. As a first step in the process, it is simply important to know what the data is shaped like. With this is mind, the plot below was created to show how Fantasy Point production slopes off for each individual position.
 
 ![alt text](https://github.com/mattgilgo/fantasy_football/blob/main/plots/points_by_position.PNG?raw=true)
 
 ## Model Generation
-...
+For the first iteration of generating models, the sklearn library was used to explore various regression model types and test their accuracy against the given datasets. 
+The model types tested were:
+* Linear Regression
+* Lasso
+* Ridge
+* Bayesian Ridge
+* Elastic Net
+* kNN
+* Random Forest
+* MLP (Neural Net)
 
-## Results Visualization
-...
+Based on the preliminary model training results, these model types were found to have the best performance and were used to rank each position group for the draft:
+* QB - Bayesian Ridge
+* RB - Random Forest
+* WR - Bayesian Ridge
+* TE - Linear Regression
 
-## Draft Simulations
-...
 
 ## Model Performance Tracker
 ### Team Results
@@ -80,6 +88,12 @@ Mean Absolute Error of Model's Projected Points vs Actual Points:
 | ***RB***   | 51.3    | 58.9       |
 | ***WR***   | 59.5    | ***47.3*** |
 | ***TE***   | 46.8    | ***35.5*** |
+
+## Next Steps
+* Further model improvement, with a focus on RB position group to get performing above industry competitors
+* New model development for D/ST and K position groups
+* Inclusion of additional datasets (PFF, O-Line stats, etc.)
+* Exploring more complex modeling libraries (TensorFlow, Pytorch, etc.)
 
 
 
