@@ -48,6 +48,7 @@ Once the datasets weere created and engineered, the next step was to explore the
 ...
 
 ## Model Performance Tracker
+### Team Results
 2022 Performance for teams drafted using these models:
 
 | League          | #Teams/League | Scoring Style | Draft Position | Total Points  | League Finish |
@@ -58,7 +59,7 @@ Once the datasets weere created and engineered, the next step was to explore the
 | Biloxis Best Fm | 10            | PPR           | 7th            | 1781          | 1st           |
 | Couples De Lead | 10            | PPR           | 6th            | 1725          | 1st           |
 
-## Average Position Finishes by Draftees
+### Average Position Finishes by Draftees
 Average Position Rank by Drafted Starting Players (number of top players averaged for position in parenthesis):
 
 | League          | QB (1) | RB (2) | WR (3) | TE (1) |
@@ -68,6 +69,18 @@ Average Position Rank by Drafted Starting Players (number of top players average
 | Seattle H2H     | 13     | 9      | 8      | 7      |
 | Biloxis Best Fm | 12     | 23     | 5      | 1      |
 | Couples De Lead | 12     | 8      | 8      | 12     |
+
+### Model Loss Stats
+Mean Absolute Error of Model's Projected Points vs Actual Points:
+***(Bolded Scores Reflect performance higher than industry experts)***
+
+| Position | Experts | Gilgo      |
+| -------- | ------- | ---------- |
+| QB       | 78.7    | ***76.9*** |
+| RB       | 51.3    | 58.9       |
+| WR       | 59.5    | ***47.3*** |
+| TE       | 46.8    | ***35.5*** |
+
 
 
 
