@@ -85,7 +85,7 @@ Mean Absolute Error of Model's Projected Points vs Actual Points:
 | Position   | Experts | Gilgo      |
 | ---------- | ------- | ---------- |
 | ***QB***   | 78.7    | ***76.9*** |
-| ***RB***   | 51.3    | 58.9       |
+| RB         | 51.3    | 58.9       |
 | ***WR***   | 59.5    | ***47.3*** |
 | ***TE***   | 46.8    | ***35.5*** |
 
