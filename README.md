@@ -124,10 +124,10 @@ Mean Absolute Error of Model's Projected Points vs Actual Points:
 </details>
 
 ## Next Steps
-* Further model improvement, with a focus on RB position group to get performing above industry competitors
-* New model development for D/ST and K position groups
-* Inclusion of additional datasets (PFF, O-Line stats, etc.)
-* Exploring more complex modeling libraries (TensorFlow, Pytorch, etc.)
+- [x] Further model improvement, with a focus on RB position group to get performing above industry competitors
+- [ ] New model development for D/ST and K position groups
+- [ ] Inclusion of additional datasets (PFF, O-Line stats, etc.)
+- [ ] Exploring more complex modeling libraries (TensorFlow, Pytorch, etc.)
 
 
 
