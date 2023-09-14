@@ -1,0 +1,21 @@
+1) Manually download each data file from Pro football reference and other websites shown on GitHub and save with
+   the suffix "_<prev_year>" to help with future identification (i.e. pass_adv_accuracy_2022.csv)
+2) Where necessary, append data to bottom of the "_all.csv" files using Excel
+3) Open up "master_df_adv_w_2022.csv" and add new players with respective data to each column. Make sure to only
+   have each player listed once with their given position included as well
+4) Copy 2023_models.ipynb and rename as <year>_models.ipynb, then swap in respective master_df_adv_w<prev_year>.csv
+   in read_csv calls
+5) Perform 3_year function calcs as seen in 2023_models.ipynb's third cell (three_year_avg() and three_year_stddev) 
+6) Update models that performed poorly in the previous year and run models to make predictions. Note that the models in
+   the 2022_models.ipynb performed better than industry standard for QBs, WRs, and TEs, so if poor performance was seen on those,
+   revert to the models used in that file by adding them to the <year>_models.ipynb file and run with those instead.
+   Predictions will be made with:
+     - Train_x: 2019-2021 stat params by position
+     - Train_y: 2022 ppr fantasy points
+     - Predict_x: <3_years_prev>-<prev_year> stat params by position (i.e. 2020-2022 stat params by position)
+   *Note: can use GridSearchCV against train_x and train_y when testing models 
+
+*Considerations:
+- Go to PFF's preseasons team Offensive line rankings and include them as a new column in the training data and test data
+   - This could be very important as some initial model tests showed the pressure the QB sees as the most important
+     predictor of success
