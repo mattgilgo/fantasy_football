@@ -47,6 +47,7 @@ Based on past performance, these players have what it takes to be an All-Pro at 
 ## Data Engineering
 To kick off this project, data needed to be consolidated from various sources connect the picture between player statistics through where they project in a Fantasy Football Draft.
 The following sources were used to extract this data:
+* Note: check "steps_to_update_data.txt" for steps on how to add to new data to files for model projections
 * Pro Football Reference for each Player's game and combine stats (https://www.pro-football-reference.com/)
 * CBS Sports for target projections (https://www.cbssports.com/fantasy/football/stats/)
 * Fantasy Pros for aggregate 2022 PPR-format points projections (https://www.fantasypros.com/nfl/projections/qb.php?week=draft)
