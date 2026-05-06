@@ -27,10 +27,10 @@ Since 2022, drafts guided by these rankings have finished 1st in multiple league
 
 ### 2025 Rankings (XGBoost)
 
-- [QB](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2025_xgboost_qb_rankings.csv)
-- [RB](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2025_xgboost_rb_rankings.csv)
-- [WR](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2025_xgboost_wr_rankings.csv)
-- [TE](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2025_xgboost_te_rankings.csv)
+- [QB](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2025/2025_xgboost_qb_rankings.csv)
+- [RB](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2025/2025_xgboost_rb_rankings.csv)
+- [WR](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2025/2025_xgboost_wr_rankings.csv)
+- [TE](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2025/2025_xgboost_te_rankings.csv)
 
 <details>
 <summary>2024 Rankings</summary>
@@ -45,21 +45,20 @@ Since 2022, drafts guided by these rankings have finished 1st in multiple league
 <details>
 <summary>2023 Rankings</summary>
 
-Overall: [OVR](https://github.com/mattgilgo/fantasy_football/blob/main/draft_proj_new_083023/OVR/2023_projections_20230830-193027.csv)
+Overall: [OVR](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2023/OVR/2023_projections_20230830-193027.csv)
 
 Best model per position:
-- [QB](https://github.com/mattgilgo/fantasy_football/blob/main/draft_proj_new_083023/QB/2023_projections_20230830-171708.csv) · [RB](https://github.com/mattgilgo/fantasy_football/blob/main/draft_proj_new_083023/RB/2023_projections_20230830-171708.csv) · [WR](https://github.com/mattgilgo/fantasy_football/blob/main/draft_proj_new_083023/WR/2023_projections_20230830-172942.csv) · [TE](https://github.com/mattgilgo/fantasy_football/blob/main/draft_proj_new_083023/TE/2023_projections_20230830-172942.csv)
+- [QB](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2023/QB/2023_projections_20230830-171708.csv) · [RB](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2023/RB/2023_projections_20230830-171708.csv) · [WR](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2023/WR/2023_projections_20230830-172942.csv) · [TE](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2023/TE/2023_projections_20230830-172942.csv)
 
 Star criteria (projected positional elites):
-- [QB](https://github.com/mattgilgo/fantasy_football/blob/main/draft_proj_new_083023/QB/qb_star_criteria.csv) · [RB](https://github.com/mattgilgo/fantasy_football/blob/main/draft_proj_new_083023/RB/rb_star_criteria.csv) · [WR](https://github.com/mattgilgo/fantasy_football/blob/main/draft_proj_new_083023/WR/wr_star_criteria.csv) · [TE](https://github.com/mattgilgo/fantasy_football/blob/main/draft_proj_new_083023/TE/te_star_criteria.csv)
+- [QB](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2023/QB/qb_star_criteria.csv) · [RB](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2023/RB/rb_star_criteria.csv) · [WR](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2023/WR/wr_star_criteria.csv) · [TE](https://github.com/mattgilgo/fantasy_football/blob/main/projections/2023/TE/te_star_criteria.csv)
 
 </details>
 
 <details>
 <summary>2022 Rankings</summary>
 
-Best model per position:
-- [QB](https://github.com/mattgilgo/fantasy_football/blob/main/projections/QB/BayesianRidge2022_projections_20220830-142824.csv) · [RB](https://github.com/mattgilgo/fantasy_football/blob/main/projections/RB/RandomForestRegressor2022_projections_20220830-142827.csv) · [WR](https://github.com/mattgilgo/fantasy_football/blob/main/projections/WR/BayesianRidge2022_projections_20220830-142827.csv) · [TE](https://github.com/mattgilgo/fantasy_football/blob/main/projections/TE/LinearRegression2022_projections_20220830-142828.csv)
+2022 projection files are in `_archive/projections_2022_runs/` and `_archive/draft_proj_083022/`.
 
 </details>
 
@@ -103,13 +102,14 @@ Models are evaluated by Mean Absolute Error (MAE) of projected vs. actual fantas
 
 | Notebook | Description |
 |----------|-------------|
-| `eda.ipynb` | Exploratory data analysis across all positions |
-| `2025_predictions.ipynb` | 2025 season model training and projections |
-| `2024_predictions.ipynb` | 2024 season projections |
-| `2024_models.ipynb` | 2024 model development |
-| `2023_models.ipynb` | 2023 model development |
-| `2022_models.ipynb` | Initial model development |
-| `results.ipynb` | Post-season model performance evaluation |
+| `notebooks/eda.ipynb` | Exploratory data analysis across all positions |
+| `notebooks/2025_predictions.ipynb` | 2025 season model training and projections |
+| `notebooks/2024_predictions.ipynb` | 2024 season projections |
+| `notebooks/2024_models.ipynb` | 2024 model development |
+| `notebooks/2023_models.ipynb` | 2023 model development |
+| `notebooks/2022_models.ipynb` | Initial model development |
+| `notebooks/results.ipynb` | Post-season model performance evaluation |
+| `notebooks/fantasy_draft_guide.ipynb` | Draft guide generation (10- and 12-team formats) |
 
 ## Roadmap
 
